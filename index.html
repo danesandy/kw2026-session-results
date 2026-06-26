@@ -333,19 +333,18 @@ html{background:var(--bg)}body{font-family:'Inter',sans-serif;background:var(--b
       <div class="card">
         <div class="ql">Question 1 · Ranking</div>
         <h3>What contributes to the high Non-Revenue Water in Trinidad &amp; Tobago?</h3>
-        <div class="bi"><div class="brow"><span class="bn">Aged Infrastructure</span><span class="bv">52%</span></div><div class="bt"><div class="bf bf1" data-w="52"></div></div></div>
-        <div class="bi"><div class="brow"><span class="bn">Poor Maintenance</span><span class="bv">28%</span></div><div class="bt"><div class="bf bf2" data-w="28"></div></div></div>
-        <div class="bi"><div class="brow"><span class="bn">Water Theft / Illegal Connections</span><span class="bv">12%</span></div><div class="bt"><div class="bf bf3" data-w="12"></div></div></div>
-        <div class="bi"><div class="brow"><span class="bn">Low Metering Coverage</span><span class="bv">8%</span></div><div class="bt"><div class="bf bf4" data-w="8"></div></div></div>
+        <div class="bi"><div class="brow"><span class="bn">Aged Infrastructure</span><span class="bv">57%</span></div><div class="bt"><div class="bf bf1" data-w="57"></div></div></div>
+        <div class="bi"><div class="brow"><span class="bn">Poor Maintenance</span><span class="bv">20%</span></div><div class="bt"><div class="bf bf2" data-w="20"></div></div></div>
+        <div class="bi"><div class="brow"><span class="bn">Low Metering Coverage</span><span class="bv">20%</span></div><div class="bt"><div class="bf bf3" data-w="20"></div></div></div>
+        <div class="bi"><div class="brow"><span class="bn">Water Theft</span><span class="bv">3%</span></div><div class="bt"><div class="bf bf4" data-w="3"></div></div></div>
       </div>
       <div class="card">
         <div class="ql">Question 2 · Prioritize</div>
         <h3>Which challenge should we prioritize first to unlock the greatest impact?</h3>
-        <div class="bi"><div class="brow"><span class="bn">Reduce Physical Water Loss</span><span class="bv">40%</span></div><div class="bt"><div class="bf bf1" data-w="40"></div></div></div>
-        <div class="bi"><div class="brow"><span class="bn">Improve Metering &amp; Data</span><span class="bv">26%</span></div><div class="bt"><div class="bf bf5" data-w="26"></div></div></div>
-        <div class="bi"><div class="brow"><span class="bn">Rehabilitate Aging Pipes</span><span class="bv">20%</span></div><div class="bt"><div class="bf bf2" data-w="20"></div></div></div>
-        <div class="bi"><div class="brow"><span class="bn">Strengthen Governance</span><span class="bv">9%</span></div><div class="bt"><div class="bf bf3" data-w="9"></div></div></div>
-        <div class="bi"><div class="brow"><span class="bn">Community Engagement</span><span class="bv">5%</span></div><div class="bt"><div class="bf bf4" data-w="5"></div></div></div>
+        <div class="bi"><div class="brow"><span class="bn">Non-Revenue Water</span><span class="bv">50%</span></div><div class="bt"><div class="bf bf1" data-w="50"></div></div></div>
+        <div class="bi"><div class="brow"><span class="bn">Aged Pipeline</span><span class="bv">27%</span></div><div class="bt"><div class="bf bf2" data-w="27"></div></div></div>
+        <div class="bi"><div class="brow"><span class="bn">Community Education &amp; Conservation</span><span class="bv">19%</span></div><div class="bt"><div class="bf bf5" data-w="19"></div></div></div>
+        <div class="bi"><div class="brow"><span class="bn">Pressure Management</span><span class="bv">4%</span></div><div class="bt"><div class="bf bf3" data-w="4"></div></div></div>
       </div>
     </div>
 
@@ -533,8 +532,8 @@ html{background:var(--bg)}body{font-family:'Inter',sans-serif;background:var(--b
 
 <script>
 // ── Word cloud data ──
-const q3=[["Reduce NRW 20%",44],["100% Metered",40],["Zero Outages",36],["24hr Pressure",30],["95% Coverage",27],["Cut Losses 50%",24],["Real-time Monitor",22],["Universal Metering",20],["Water Quality 99%",17],["48hr Max Outage",15],["Leak-free Zones",14],["Full Connectivity",12],["Smart Grid",11],["Pressure Targets",10],["Data Dashboard",9],["Community Access",8],["Pipe Audit",7],["Zero Illegal Taps",16]];
-const q4=[["Smart Metering",50],["AI Leak Detection",46],["Digital Twin",40],["IoT Sensors",36],["Predictive Maint.",30],["Pressure Mgmt",26],["Real-time Monitor",24],["SCADA Upgrade",20],["GIS Mapping",18],["Satellite Detect",16],["Community App",14],["Night Flow Analysis",13],["Machine Learning",13],["Drone Inspection",11],["Automation",18],["Data Analytics",15]];
+const q3=[["reliable",4],["consistent",3],["continuous",3],["access",2],["constant",2],["the people want water",2],["all day every day",1],["availability when needed",1],["available",1],["basic health necessity",1],["daily supply",1],["daily supply in every tap",1],["equal access",1],["equity vs equality",1],["full coverage",1],["human right",1],["intelligence management",1],["pay as you use",1],["reliable supply",1],["steady supply",1],["total coverage",1],["uninterrupted",1],["water as you need it",1],["50 percent increase access",1],["advancement enabler",1],["fair",1],["a reliable source",1],["ideal",1]];
+const q4=[["metering",3],["review tariffs",2],["technology",2],["ai for data analysis",1],["audit",1],["change the pipes",1],["conservation",1],["conservation awareness",1],["demand management",1],["desalination",1],["education",1],["fix household pipes",1],["fix pipes with findings",1],["increase metering",1],["investment",1],["investment and education",1],["investments in the sector",1],["leak detection",1],["management",1],["meter rollout",1],["new infrastructure",1],["new technology pipes",1],["pay by use",1],["pressure management",1],["rainwater harvesting",1],["real time gis demand map",1],["repair response system",1],["smart leak monitoring",1],["smart metering",1],["smart meters",1],["smart sensors",1],["social marketing",1],["transformation",1],["upgrade technology",1],["water conservation",1]];
 
 // ── Counter ──
 function animC(id,t,d=2200){const el=document.getElementById(id),t0=Date.now();(function tick(){const p=Math.min((Date.now()-t0)/d,1);el.textContent=Math.round((1-Math.pow(1-p,3))*t);if(p<1)requestAnimationFrame(tick)})();}
@@ -613,7 +612,7 @@ async function dlPDF(){
 
 // ── INIT ──
 window.addEventListener('load',()=>{
-  animC('cp',47); animC('cr',188);
+  animC('cp',30); animC('cr',142);
   animBars(); makeQR();
   // Inject second logo
   const logo2=document.getElementById('idb-logo2');
